@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 700px;
+    background-color: #f5f5f5;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    /* Ajuste conforme necessário */
+}
+
+.main .left-side {
+    width: 50%;
+    height: 75%;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #7857FF 0%, #2E2BE9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.main .left-side h3 {
+    margin: 30px 0;
+    color: #ffffffdf;
+}
+
+.main .left-side .circle {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 266px;
+    background: linear-gradient(180deg, #4E21CA 0%, rgba(36, 33, 202, 0.00) 100%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .left-side .circle h1 {
+    font-size: 4.5em;
+    color: #fff;
+}
+
+.main .left-side .circle p {
+    color: #ffffffdf;
+    font-weight: 700;
+}
+
+.main .left-side h2 {
+    margin: 20px 0;
+}
+
+.main .left-side span {
+    width: 65%;
+    margin: 20px 0 40px 0;
+}
+
+.main .rigth-side {
+    width: 50%;
+    height: 75%;
+    border-radius: 50px;
+    color: #303B59;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.main .rigth-side h3 {
+    margin: -10px 0 30px 0;
+}
+
+.main .rigth-side .classification {
+    display: flex;
+    width: 270px;
+    height: 50px;
+    margin: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-weight: 500;
+}
+
+.main .rigth-side .classification span {
+    color: #303B59;
+    font-weight: 700;
+}
+
+.main .rigth-side .classification span .trans {
+    color: #303b59cd;
+    font-weight: 700;
+}
+
+.main .rigth-side .red {
+    color: #FF5757;
+    background: rgba(255, 87, 87, 0.10);
+}
+
+.main .rigth-side .orange {
+    color: #FFB01F;
+    background: rgba(255, 176, 31, 0.10);
+}
+
+.main .rigth-side .green {
+    color: #00BD91;
+    background: rgba(0, 189, 145, 0.10);
+}
+
+.main .rigth-side .blue {
+    color: #1125D4;
+    background: rgba(17, 37, 212, 0.10);
+}
+
+button {
+    margin: 20px 0;
+    width: 270px;
+    height: 50px;
+    border-radius: 50px;
+    background: #303B59;
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    transition: 0.5s ease-out;
+    /* Adicionado a propriedade de transição */
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(180deg, #7857FF 0%, #2E2BE9 100%);
+    transition: 0.5s ease-in;
+    transform: translateY(-5px);
+}
