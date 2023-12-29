@@ -48,6 +48,14 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    transition: 1s ease-in-out;
+}
+
+.main .left-side .circle:hover {
+    width: 180px;
+    height: 180px;
+    background-color: #00BD91;
+    transition: 1s ease-in-out;
 }
 
 .main .left-side .circle h1 {
@@ -107,21 +115,49 @@ body {
 .main .rigth-side .red {
     color: #FF5757;
     background: rgba(255, 87, 87, 0.10);
+    transition: 0.5s ease-in-out;
+}
+
+.main .rigth-side .red:hover{
+    background: rgba(255, 87, 87, 0.678);
+    transition: 0.5s ease-in-out;
+    color: #FFF;
 }
 
 .main .rigth-side .orange {
     color: #FFB01F;
     background: rgba(255, 176, 31, 0.10);
+    transition: 0.5s ease-in-out;
+}
+
+.main .rigth-side .orange:hover{
+    background: rgba(255, 176 , 31, 0.678);
+    transition: 0.5s ease-in-out;
+    color: #FFF;
 }
 
 .main .rigth-side .green {
     color: #00BD91;
     background: rgba(0, 189, 145, 0.10);
+    transition: 0.5s ease-in-out;
+}
+
+.main .rigth-side .green:hover {
+    transition: 0.5s ease-in-out;
+    color: #FFF;
+    background: rgba(0, 189, 145, 0.678);
 }
 
 .main .rigth-side .blue {
     color: #1125D4;
     background: rgba(17, 37, 212, 0.10);
+    transition: 0.5s ease-in-out;
+}
+
+.main .rigth-side .blue:hover {
+    transition: 0.5s ease-in-out;
+    color: #FFF;
+    background: rgba(17, 37, 212, 0.678);
 }
 
 button {
